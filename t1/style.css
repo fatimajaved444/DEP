@@ -1,0 +1,23 @@
+.hero{
+    background-image: url('pic9.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        background-position: top;
+        height: 50vh; /* Adjust height for smaller screens */
+    }
+}
+.featured-destinations .card {
+    transition: transform 0.2s;
+}
+
+.featured-destinations .card:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+    <title>Task 1</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Travel Blog</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Service 1</a></li>
+                  <li><a class="dropdown-item" href="#">Service 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Service 3</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section class="hero bg-dark text-white d-flex text-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-4">Explore the World with Us</h1>
+                    <p class="lead">Discover hidden gems, travel tips, and unforgettable experiences.</p>
+                    <a href="#" class="btn btn-success">Start Your Adventure</a>
+                </div>
+            </div>
+        </div>
+
+      </section>
+
+      <section class="featured-destinations bg-dark py-3">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4 text-light">
+                    <h2>Featured Destinations</h2>
+                    <p>Explore our most popular travel destinations and discover the best experiences we have covered.</p>
+                </div>
+            </div>
+          <div class="row">
+            <div class="col-sm-4 my-4">
+              <div class="card">
+                <img src="santorini.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Santorini, Greece</h5>
+                  <p class="card-text">Experience the breathtaking views of Santorini. 
+                    This Greek island offers stunning sunsets, beautiful beaches, 
+                     perched on cliffs overlooking the Aegean Sea.</p>
+                  <a href="#" class="btn btn-success">Read Article</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 my-4">
+              <div class="card">
+                <img src="paris.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Paris, France</h5>
+                  <p class="card-text">Discover the romance and charm of Paris, the city of lights.
+                    From the Eiffel Tower to the Louvre, explore world-famous landmarks and indulge
+                     in exquisite French cuisine.</p>
+                  <a href="#" class="btn btn-success">Read Article</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 my-4">
+                <div class="card">
+                  <img src="kyoto.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Kyoto, Japan</h5>
+                    <p class="card-text">Step into the ancient history of Kyoto.
+                        Experience serene temples, vibrant cherry blossoms, and traditional 
+                        tea ceremonies in this cultural heart of Japan.</p>
+                    <a href="#" class="btn btn-success">Read Article</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+    
+      </section>
+
+
+
+
+      <section class="travel-tips bg-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-white mb-4">
+                    <h2>Travel Tips and Guides</h2>
+                    <p>Explore our expert advice to make your travels smoother and more enjoyable. From packing tips to destination guides, we've got you covered.</p>
+                </div>
+            </div>
+    
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Packing Tips
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            To streamline your travel experience, focus on packing only essential items. 
+                            Prioritize versatile clothing that can be mixed and matched, and avoid the temptation to over-pack.
+                             Rolling clothes instead of folding them can help save space and minimize wrinkles. Pack a day before your
+                              departure to allow time for adjustments, and use packing cubes or compression
+                               bags to stay organized and maximize suitcase space.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Budget Travel
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Traveling during off-peak seasons can significantly cut costs on flights and accommodations. Booking several months in 
+                            advance often secures better deals, while fare comparison sites can help you find the most affordable options. To save on
+                             food expenses, try eating at local markets or small eateries instead of tourist-heavy spots.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Safety Tips
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Keep your valuables secure by using a money belt or hidden pouch for important items like passports and cash. Always
+                             be aware of your surroundings and avoid displaying expensive items in crowded areas. For long trips, consider registering 
+                             with your country’s embassy to receive important updates and assistance if needed. When traveling, opt for reputable taxi 
+                             services or rideshare apps to ensure safe and reliable transportation.
+                             
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Destination Guides
+                            
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Research and compile a list of top attractions and experiences for your chosen destination. Provide detailed descriptions
+                             and tips to help travelers navigate and enjoy the area, ensuring they don’t miss out on the best sights and activities.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Travel Planning
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Effective travel planning involves creating a detailed itinerary that includes daily activities and major sights to ensure you make the most of your trip without feeling rushed. Stay informed about travel advisories and entry requirements for your destination. Download offline maps and travel guides to avoid getting lost and to have access to crucial information without internet access. Finally, ensure all travel documents, such as your passport, visas, and travel insurance, are up-to-date and readily accessible.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="img-gallery bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-white mb-4 text-white">
+                    <h2>Travel Photo Gallery</h2>
+                    <p>Explore our collection of stunning travel photos from around the world.</p>
+                </div>
+            </div>
+        <div class="container">
+            <div class="row my-4">
+              <div class="col-12  col-md-4 mb-4">
+                <img src="pic5.jpg" class="img-fluid w-100" alt="...">
+              </div>
+              <div class="col-12  col-md-4 mb-4">
+                <img src="pic6.jpg" class="img-fluid w-100" alt="...">
+              </div>
+              <div class="col-12  col-md-4 mb-4">
+                <img src="pic8.jpg" class="img-fluid w-100" alt="...">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12  col-md-4 mb-4">
+                <img src="pic12.jpg" class="img-fluid w-100" alt="...">
+              </div>
+              <div class="col-12  col-md-4 mb-4">
+                <img src="pic13.jpg" class="img-fluid w-100" alt="...">
+              </div>
+              <div class="col-12  col-md-4 mb-4">
+                <img src="pic7.jpg" class="img-fluid w-100" alt="...">
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+   
+    
+    <section class="contact bg-dark py-4">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions or would like to collaborate, please get in touch with us.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject:</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Enter Your Subject">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message:</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Enter Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mt-3">
+                    <p class="mb-0">&copy; 2024 Travel Blog. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
