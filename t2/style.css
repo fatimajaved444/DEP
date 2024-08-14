@@ -1,0 +1,124 @@
+
+.navbar{
+    height: 40px;
+  
+    
+    
+}
+.bg-custom
+{
+    background: linear-gradient(to right, #d6b7d6, #f2d7d4); 
+}
+.btn-custom
+{
+    background-color:  #8f7e9f;
+}
+
+.btn-sm
+{
+  margin: 10px 2px;
+    font-size: 0.8rem; 
+    height: 30px;
+    align-items: center;
+}
+.heading
+{
+    color:black;
+ }
+.featured-perfumes.card {
+    transition: transform 0.2s;
+   
+}
+.featured-perfumes {
+    background: linear-gradient(to right, #f0e6f6,#f7d8de); 
+    padding: 60px 0; }
+    
+
+.featured-perfumes.card:hover {
+    transform: scale(1.05);
+}
+
+.custom-card {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.custom-card .card-title {
+    margin-bottom: 15px;
+}
+
+.custom-card .btn {
+    margin-top: auto;
+}
+
+
+
+.accordion-button {
+    background-color: #e0d8e6; 
+    color: #4a2c6a;
+    border: 1px solid #d4c6e0;
+    font-weight: bold;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #d4c6e0;
+    color: #4a2c6a;
+}
+
+.accordion-body {
+    background-color: #f7f4f9;
+    color: #4a2c6a;
+    padding: 15px;
+}
+
+.accordion-item {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.perfume-tips {
+    background-color: #eee6f4;
+}
+
+.form-range::-webkit-slider-thumb {
+    background-color: rgb(171, 70, 70);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+    width: 20px;
+    height: 15px;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    border: none;
+}
+
+.heading {
+    color: black;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 991px) {
+    .heading {
+        margin-top: 10rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .heading {
+        margin-top: 12rem;
+    }
+}
